@@ -1,6 +1,7 @@
-#ifndef __FUNCS_H__
-#define __FUNCS_H__
+#include <funcs.h>
+#include <stdio.h>
 
-void foo();
-
-#endif
+void foo()
+{
+   printf("hello foo\n");
+}
